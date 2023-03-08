@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-image:url(img_alt/fondo.jpg);
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+
+}
+.titulo{
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dias{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.dia{
+    padding: 1rem;
+}
+.dia a{
+    background-color: #60ce7d;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+
